@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 80px;
+    font-weight: bold;
+    list-style: none;
+    text-transform: capitalize;
+}

@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    --Fondo: rgb(240, 247, 247);
+    background-color: var(--Fondo);
+
+   --Font-color1: rgb(10, 10, 10);
+   color: var(--Font-color);
+
+   --Button:rgb(13, 150, 230);
+
+   font-family: Ysabeau, sans-serif;
+}
+
+body{
+    margin: 40px;
+}
