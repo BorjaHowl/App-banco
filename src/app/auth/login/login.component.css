@@ -1,0 +1,23 @@
+section {
+    text-align: center;
+    margin: 40px;
+}
+
+input {
+    margin: 15px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+label {
+    margin: auto;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.submit {
+    margin: 10px;
+    background-color: var(--Button);
+    font-weight: bolder;
+    color: black;
+}

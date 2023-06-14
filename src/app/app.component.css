@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase
+}
+
+nav ul {
+    display: flex;
+    gap: 80px;
+    font-weight: bold;
+    list-style: none;
+    text-transform: uppercase;
+    border: 2px solid rgb(252, 252, 252);
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
