@@ -22,7 +22,10 @@ export class LoginComponent {
       console.log(usuario)
 this.router.navigateByUrl("/pages/dashboard");
     }
-    else { console.error("No se pudo conectar") };
+    else { console.error("No se pudo conectar")
+  this.email = "";
+  this.password = "";
+  };
   }
 }
 
