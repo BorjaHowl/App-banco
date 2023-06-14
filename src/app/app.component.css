@@ -1,3 +1,13 @@
+article {
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 45px;
+    margin: none;   
+}
+
 h1 {
     text-align: center;
     color: whitesmoke;
