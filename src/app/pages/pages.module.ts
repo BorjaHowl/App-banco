@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { TransferenciasRecibidasComponent } from './transferencias-recibidas/transferencias-recibidas.component';
 import { TransferenciasEnviadasComponent } from './transferencias-enviadas/transferencias-enviadas.component';
+import { ComponentesModule } from '../componentes/componentes.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { TransferenciasEnviadasComponent } from './transferencias-enviadas/trans
     CommonModule,
     PagesRoutingModule,
     FormsModule,
+    ComponentesModule,
   ]
 })
 export class PagesModule { }

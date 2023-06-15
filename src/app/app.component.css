@@ -20,7 +20,7 @@ nav ul {
     font-weight: bold;
     list-style: none;
     text-transform: uppercase;
-    border: 2px solid rgb(252, 252, 252);
+    border-bottom: 2px solid rgb(252, 252, 252);
 }
 
 nav ul li a {
