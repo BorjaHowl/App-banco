@@ -19,4 +19,5 @@ label{
 
 input:focus {
     background-color: whitesmoke;
+    color: black;
 }

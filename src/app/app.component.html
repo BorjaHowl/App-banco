@@ -3,10 +3,15 @@
     <h1>Banquio</h1>
     <nav class="main-menu">
         <ul>
-            <li><a routerLink="/auth/login">Iniciar Sesión</a></li>
-            <li><a routerLink="/pages/dashboard">Inicio</a></li>
-            <li><a routerLink="/pages/transferencias">Transferencias</a></li>
-            <li><a routerLink="/pages/mi-cuenta">Mi Cuenta</a></li>
+            <li><a  routerLinkActive="activo" routerLink="/auth/login">Iniciar Sesión</a></li>
+            <li><a  routerLinkActive="activo"routerLink="/pages/dashboard">Inicio</a></li>
+            <li class="dropdown-menu">Transferencias 
+               <ul class="submenu">
+                <li><a  routerLinkActive="activo"routerLink="/pages/transferencias-recibidas">Transferencias recibidas</a></li>
+                <li><a  routerLinkActive="activo"routerLink="/pages/transferencias-enviadas">Transferencias enviadas</a></li>
+                <li><a  routerLinkActive="activo"routerLink="/pages/nueva-transferencia">Nueva Transferencia</a></li>
+             </ul>
+            <li><a routerLinkActive="activo" routerLink="/pages/mi-cuenta" >Mi Cuenta</a></li>
         </ul>
     </nav>
 </header>
