@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { transferenciasEnviadas } from 'src/app/datos/transferencias-ejemplo';
 
 @Component({

@@ -1,0 +1,47 @@
+div{
+    justify-content: space-around;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.saldo{
+    border: 3px solid #ebebeb;
+    border-style: groove;
+    border-radius: 6%;
+}
+
+p{
+    text-align:justify;
+    margin: 60px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+input {
+    margin: 15px;
+    color: black;
+}
+
+input:focus{
+    background-color: whitesmoke;
+}
+
+label {
+    margin: auto;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 15px;
+}
+
+.submit {
+    margin: 10px;
+    background-color: var(--Button);
+    font-weight: bolder;
+    color: black;
+    font-size: large;
+    margin-left: 48px;
+}

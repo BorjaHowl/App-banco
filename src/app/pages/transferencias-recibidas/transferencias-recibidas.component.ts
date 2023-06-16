@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { transferenciasRecibidas } from 'src/app/datos/transferencias-ejemplo';
 
 @Component({
@@ -9,5 +9,7 @@ import { transferenciasRecibidas } from 'src/app/datos/transferencias-ejemplo';
 export class TransferenciasRecibidasComponent {
 
 transferencias: any[] = transferenciasRecibidas;
+
+
 
 }

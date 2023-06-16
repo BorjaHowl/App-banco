@@ -1,17 +1,25 @@
 article {
     display: flex;
     justify-content: center;
+    background-color:rgb(231, 231, 231);
 }
 
 img{
     width: 45px;
     margin: none;   
+    background-color:rgb(231, 231, 231);
+    
 }
 
 h1 {
     text-align: center;
-    color: whitesmoke;
-    text-transform: uppercase
+    color: rgb(14, 14, 14);
+    text-transform: uppercase;
+    background-color:rgb(231, 231, 231);
+}
+
+header{
+    background-color:rgb(231, 231, 231);
 }
 
 nav ul {
@@ -21,6 +29,7 @@ nav ul {
     list-style: none;
     text-transform: uppercase;
     border-bottom: 2px solid rgb(252, 252, 252);
+    justify-content: space-around;
 }
 
 nav ul li a {
@@ -29,4 +38,8 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+nav ul li a:active{
+    color: rgb(59, 59, 59);
 }
