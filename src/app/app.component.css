@@ -43,3 +43,28 @@ nav ul li a:hover {
 nav ul li a:active{
     color: rgb(59, 59, 59);
 }
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    article {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    img {
+      margin-bottom: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-bottom: 10px;
+      border-bottom: none;
+      text-align: center;
+    }
+  }

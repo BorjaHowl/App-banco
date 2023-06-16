@@ -39,3 +39,23 @@ h2:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .carta-inicio {
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .cabecera-tabla {
+      font-size: 18px;
+      margin: 8px;
+    }
+  }

@@ -45,3 +45,39 @@ label {
     font-size: large;
     margin-left: 48px;
 }
+
+button{
+font-weight: bold;
+font-size: larger;
+border-radius: 8%;
+height: fit-content;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .saldo {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      margin: 20px;
+    }
+  
+    input {
+      margin: 10px;
+    }
+  
+    label {
+      margin-left: 10px;
+    }
+  
+    .submit {
+      margin-left: 10px;
+    }
+  }
