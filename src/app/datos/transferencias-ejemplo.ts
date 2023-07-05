@@ -27,6 +27,8 @@ export const transferenciasRecibidas = [
         fecha: new Date(),
     }
 
+
+
 ]
 
 export const transferenciasEnviadas = [
